@@ -18,5 +18,15 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false
   },
-  "exclude": ["projects"]
+  "exclude": [
+    "projects"
+  ],
+  "include": [
+    "src"
+  ],
+  "watchOptions": {
+    "excludeFiles": [
+      "projects"
+    ]
+  }
 }
